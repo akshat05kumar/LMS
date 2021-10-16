@@ -1,0 +1,99 @@
+*{box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: peru;
+}
+
+body{
+  background-color: wheat;
+
+}
+
+.head{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.T{
+  text-shadow: 1px 1px 1px black;
+}
+
+.top{
+  background-image: url('./pexels-picjumbocom-196644.jpg');
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: 200vh 100vh;
+  margin-left: 20px;
+  height: 50vh;
+  margin-bottom: 5px;
+  margin-top: 5px ;
+  font-style: oblique;
+  text-shadow: 2px 2px 8px black;
+  font-size: 2rem;
+  
+}
+
+.bottom{
+  display: flex;
+  justify-content: space-around;
+}
+
+footer{
+  margin-top: 10px;
+  text-align:center;
+}
+
+a{
+  text-decoration: none;
+}
+
+.one
+{
+  background-image: url('/public/profile+profile+page+user+icon-1320186864367220794.png');
+  
+  background-repeat: no-repeat;
+  background-size:29vh;
+}
+
+.two{
+  background-image: url('/public/course.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.three{
+  background-image: url('/public/task.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.img{
+  background-blend-mode:luminosity;
+  background-origin:padding-box;
+  background-size: contain;
+  width: 30vh;
+  background-color: white;
+  margin-top: 10px;
+  height: 30vh;
+  border: peru solid;
+}
+
+h3{
+  text-align: center;
+}
+
+h2{
+  font-size: 2rem;
+}
+
+.button{
+border: solid peru;
+background-color:white;
+font-size: 1.5rem;
+border-radius: 10px;
+
+}
+
+header{
+  margin-top: 5px;
+}

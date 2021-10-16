@@ -1,0 +1,59 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: peru;
+}
+
+.head{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.button {
+  border: solid peru;
+  color: white;
+  background-color: peru;
+  padding: 4px 8px;
+  width: 2rem;
+  border-radius: 4px;
+}
+
+h1{
+text-shadow: 2px 2px 8px black;
+font-size: 4rem;
+
+}
+
+body{
+ 
+  background-color: wheat;
+}
+
+.split{
+  margin-top: 80px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer{
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+}
+.PMenu{
+width: 20vh;
+}
+
+.ProfileImg{
+  border: solid;
+  height: 20vh;
+  background-color: white;
+  background-image: url('profile+profile+page+user+icon-1320186864367220794.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,98 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
+}
+button{
+  margin-left: 10%;
+  padding: 12px 90px;
+  border-color: peru;
+  border-style:solid;
+  border-radius: 5px;
+  background-color: white;
+  color:peru;
+  font-weight: 800;
+}
+main{
+  background:seashell ;
+  height: 80vh;
+  margin-left: 2px;
+  padding-bottom: 5px;
+}
+
+.logo{
+font-size: 3rem;
+color: peru;
+}
+
+footer{
+  padding-top: 10px;
+  text-align: center;
+  font-style: italic;
+  color: gray;
+}
+.top{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4px;
+  margin-top: 4px;
+}
+
+.imgtext{
+  display: flex;
+  justify-content:space-between;
+  padding-bottom: 5px;
+}
+
+a{
+  text-decoration: none;
+   color:black;
+   
+}
+
+.img{
+  margin-left: 4px;
+  margin-right: 4px;
+  width:90%;
+  height: 60vh;
+  border-color: black;
+  border-style: dotted;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-image: url('/public/pexels-startup-stock-photos-7103.jpg');
+}
+
+.text{
+  width: 50%;
+
+}
+
+.title{
+  text-align: center;
+  font-size: 2rem;
+  font-style: italic;
+  color:white;
+  text-shadow: 2px 2px 4px peru;
+  
+}
+
+.one{
+  padding-top: 2rem;
+ background-color:peru;
+ color: white;
+  margin-right: 6px;
+ font-size: 2rem;
+ font-style: oblique;
+ border-radius: 5px;
+}
+.two{
+  padding-top: 2rem;
+background-color: peru;
+color: white;
+font-size: 2rem;
+font-style: oblique;
+border-radius: 5px;
+  margin-right:6px ;
+
+}

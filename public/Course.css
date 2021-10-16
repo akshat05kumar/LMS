@@ -1,0 +1,76 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: wheat;
+  
+}
+
+h2,h1{
+color: peru;
+}
+
+h1{
+  text-shadow: 2px 2px 8px black;
+  font-size: 3rem;
+}
+
+.PMenu a{
+  color: peru;
+}
+
+a{
+  text-decoration: none;
+}
+.head{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.but{
+  
+  color: white;
+  background-color: peru;
+  padding: 8px 24px;
+  border-radius: 5px;
+}
+
+.M{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+.StudyMat{
+  width: 70%;
+}
+
+.L{
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+button{
+  border: solid peru;
+  margin-top:10px;
+  color: peru;
+  background-color: white;
+  padding: 8px 8px;
+  border-radius: 4px;
+}
+
+
+
+footer{
+  text-align: center;
+}
+
+.ProfileImg{
+  border: solid;
+  height: 20vh;
+  background-color: white;
+  background-image: url('profile+profile+page+user+icon-1320186864367220794.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}

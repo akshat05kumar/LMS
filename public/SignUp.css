@@ -1,0 +1,67 @@
+*{
+  box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background:url('./background.png');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-color:wheat;
+   background-blend-mode:overlay;
+}
+
+a{
+  text-decoration: none;
+}
+h2{
+  color: peru;
+}
+
+.box{
+  margin-top: 5%;
+  margin-left:35%;
+  padding-top: 10px;
+  text-align:center;
+  border: peru solid;
+  border-radius: 10px;
+  width: 30%;
+  height: 70vh;
+  text-indent: 5px;
+  background-color: white;
+  color: peru;
+}
+
+.data{
+  text-align: left;
+}
+
+.form{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-indent: 25px;
+  
+}
+
+.heading{
+  padding-bottom: 30px;
+}
+
+.button{
+  
+  border: peru solid;
+  background-color: peru;
+  border-radius: 5px;
+  width: 10rem;
+  height: 2rem;
+  margin-left: 29% ;
+  padding-top: 3px;
+}
+.button a{
+  color: white;
+}
+
+p{
+  font-size: 12px;
+}
